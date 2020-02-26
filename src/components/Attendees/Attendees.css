@@ -1,0 +1,40 @@
+.attendees-container{
+    margin-top: 15px;
+    padding: 20px;
+    /* border: 1px solid green; */
+}
+h1 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 3rem;
+}
+.attendees{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 5px;
+}
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+
+}
+.circular {
+    /* display: inline; */
+    margin: 0 auto;
+    /* margin-left: -5%;  */
+    height: 100%;
+    width: 100%;
+  }
+
+/* .attendees img{
+    width: 100%;
+} */
+/* .circular{
+    border-radius: 50%;
+} */
